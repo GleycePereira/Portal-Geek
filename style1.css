@@ -1,0 +1,140 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+
+    /* background-image: url("../img/bit.png"); */
+    background-image: url("desk.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* cabeçalho */
+header{
+    text-align: center;
+    /* margin: 5px; */
+    border: 5px solid black;
+    border-radius: 10px;
+
+    height: 80px;
+    background-image: url("video.png");
+    position: sticky;
+    top: 0;
+    
+}
+
+.portal{
+    color: white;
+    font-size: 32px;
+    margin-top: 15px;
+
+    float: left;
+    padding-left: 50px;
+}
+
+
+
+/* lista */
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(13, 7, 99);
+    border: 3px solid rgb(140, 78, 241);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+/* conteudo */
+#container{
+    margin: auto;
+    max-width: 1200px;
+    
+    /* background-color: rgb(164, 163, 163); */
+}
+
+h1{
+    text-align: center;
+
+}
+
+/* conteudo da pagina */
+.content{
+    margin: 10px 50px;
+    
+    /* background-color: rgba(255, 255, 255,0.8); */
+    background-color: rgba(255, 255, 255,0.5);
+    padding: 10px;
+    text-align: justify;
+}
+
+p{
+    text-align: justify;
+}
+
+/* imagens da página */
+.picture{
+    display: flex;
+    justify-content: center;
+}
+
+/* trailer e info */
+.info{
+    /* background-color: beige; */
+    background-image: url("wallcine.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: auto;
+    height: 320px;
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+h3{
+    color: red;
+    text-align: center;
+}
+
+.d{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+span{
+    background-color: black;
+    color: red;
+    font-weight: 800;
+}
+
+/* rodape */
+footer{
+    margin: 0 10px;
+    color: white;
+    float: right;
+}

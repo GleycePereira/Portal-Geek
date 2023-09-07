@@ -1,0 +1,117 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+
+    /* background-image: url("../img/bit.png"); */
+    background-image: url("desk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+}
+
+/* cabeçalho */
+header{
+    text-align: center;
+    /* margin: 5px; */
+    border: 5px solid black;
+    border-radius: 10px;
+
+    height: 80px;
+    background-image: url("video.png");
+    position: sticky;
+    top: 0;
+}
+
+h1{
+    color: white;
+    float: left;
+    padding-left: 50px;
+}
+
+/* conteudo principal */
+main{
+    margin: auto;
+    max-width: 1300px;
+    /* background-color: rgb(164, 163, 163); */
+    padding: 10px;
+
+    
+}
+
+/* lista */
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+/* lista link */
+.b{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(13, 7, 99);
+    border: 3px solid rgb(140, 78, 241);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+/* artigo */
+article{
+    border: 3px solid black;
+    border-radius: 10px;
+
+    margin: 10px;
+    background-color: rgba(255, 255, 255,0.7);
+    padding: 30px;
+
+   
+    height: 200px;
+}
+
+article:hover{
+    padding: 40px;
+}
+
+img{
+    float: left;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+}
+
+.mais, a{
+    color: black;
+    float:right;
+    font-weight: 700;
+
+    text-decoration: none;
+    
+}
+
+.mais:hover{
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* rodape */
+footer{
+    margin: 0 10px;
+    color: white;
+    text-align: right;
+}
