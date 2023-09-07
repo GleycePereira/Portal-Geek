@@ -8,3 +8,4 @@ Investigue notícias de filmes e jogos no site, esse será seu ponto de encontro
 Descubra novos mundos e se encante com eles.
 
 ## Acesse o site aqui
+https://gleycepereira.github.io/Portal-Geek/
